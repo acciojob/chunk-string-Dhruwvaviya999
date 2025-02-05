@@ -4,7 +4,7 @@ function stringChop(str, size) {
     for (let i = 0; i < str.length; i += size) {
       result.push(str.slice(i, i + size));
     }
-    return result;
+    return JSON.stringify(result);
 }
 
 // Do not change the code below
